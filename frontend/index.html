@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Rate Limiter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Rate Limiter</h1>
+        <p>This simple application tests the rate limiting functionality of the local API. Click the buttons below to send requests and observe if the rate limit kicks in!</p>
+        
+        <div class="button-group">
+            <button id="send-single" class="btn primary">Send Request</button>
+            <button id="send-burst" class="btn warning">Send 6 Requests Quickly</button>
+        </div>
+
+        <div class="response-area">
+            <h2>Results:</h2>
+            <div id="results-container">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
