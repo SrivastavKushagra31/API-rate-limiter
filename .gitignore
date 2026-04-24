@@ -1,0 +1,14 @@
+target/
+*.class
+*.log
+
+.vscode/
+.idea/
+
+.env
+
+node_modules/
+dist/
+build/
+
+generated-sources/
